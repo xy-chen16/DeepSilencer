@@ -70,4 +70,4 @@ $ python code/run_self_projection.py
             <th>0.76</th>
         </tr>
     </table>
-<\center>
+</center>
