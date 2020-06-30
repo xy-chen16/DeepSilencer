@@ -52,8 +52,12 @@ $ python code/run_self_projection.py
 <div align=center>
 <img src = "inst/Figure2.png" width = 70% height = 70%>
 </div>  
-
-<center>    <table>
+<style>
+table {
+margin: auto;
+}
+</style>
+<table>
         <tr>
             <th>Method</th>
             <th>ROC</th>
@@ -69,5 +73,5 @@ $ python code/run_self_projection.py
             <th>0.81</th>
             <th>0.76</th>
         </tr>
-    </table> </center>
+    </table>
 
