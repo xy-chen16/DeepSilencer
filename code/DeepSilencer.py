@@ -1,3 +1,4 @@
+import tensorflow as tf
 from keras.layers import Input, Dense, Dropout, Flatten, Convolution2D, \
 MaxPooling2D, BatchNormalization, LSTM, Bidirectional, Permute, Reshape, merge
 from keras.callbacks import EarlyStopping, ModelCheckpoint
@@ -28,7 +29,7 @@ class DeepSilencer():
         dense3  = Dense(8, activation='relu')(merge)
         pred_output = Dense(1, activation='sigmoid')(dense3)
         self.model = Model(input=[input_seq, input_kmer], output=[pred_output])
-    def fit(self,train_data,train_label,file_name = 'kmer_seq.h5',learning_rate = 1e-3):
+    def fit(self,train_data,train_data_kmer,train_label,file_name = 'kmer_seq.h5',learning_rate = 1e-3):
         
         early_stopping = EarlyStopping(monitor='val_acc', verbose=0, patience=30, mode='max')
         save_best = ModelCheckpoint(filename, save_best_only=True, save_weights_only=True)
@@ -39,5 +40,7 @@ class DeepSilencer():
                       callbacks=[early_stopping, save_best])
     def load_weights(self,filename):
         self.model.load_weights(filename)
-    def predict(self,test_data):
+    def predict(self,test_data,test_data_kmer):
+        pred_label = self.model.predict([test_data,test_data_kmer])
+        return pred_label
         
