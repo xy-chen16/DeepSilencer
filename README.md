@@ -56,7 +56,7 @@ $ python code/run_self_projection.py
 table {
 margin: auto;
 }
-</style>
+</style>   
 <table>
         <tr>
             <th>Method</th>
