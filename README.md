@@ -8,7 +8,7 @@
 
 ```  
 Requiements:  
-1. Python 3.5 or greater version  
+1. Python 3.5 or later version  
 2. Packages:  
     numpy (>=1.15.1)  
     keras (2.3.1)  
