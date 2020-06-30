@@ -50,5 +50,5 @@ $ tar -xjvf result/result.tar.bz2 -C result
 $ python code/run_self_projection.py
 ```
 <div align=center>
-<img src = "inst/Figure2.png" width = 60% height = 60%>
+<img src = "inst/Figure2.png" width = 70% height = 70%>
 </div>  
