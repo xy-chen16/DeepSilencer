@@ -1,3 +1,8 @@
+<style>
+table {
+margin: auto;
+}
+</style>   
 # DeepSilencer
 #### A deep convolutional neural network for the accurate prediction of silencers
 <div align=center>
@@ -52,11 +57,7 @@ $ python code/run_self_projection.py
 <div align=center>
 <img src = "inst/Figure2.png" width = 70% height = 70%>
 </div>  
-<style>
-table {
-margin: auto;
-}
-</style>   
+
 <table>
         <tr>
             <th>Method</th>
