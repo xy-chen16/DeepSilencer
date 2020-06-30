@@ -17,10 +17,30 @@ Requiements:
   
 Package installation:
   
-pip install -U numpy  
-pip install keras == 2.3.1 
-pip install tensorflow-gpu==1.15.2 #pip install tensorflow==1.15.2  
-pip install -U hickle  
-git clone https://github.com/xy-chen16/DeepSilencer.git   
-cd DeepSilencer    
+$ pip install -U numpy  
+$ pip install keras == 2.3.1 
+$ pip install tensorflow-gpu==1.15.2 #pip install tensorflow==1.15.2  
+$ pip install -U hickle  
+$ git clone https://github.com/xy-chen16/DeepSilencer.git   
+$ cd DeepSilencer    
+```
+
+## Data Preprocessing
+
+### Load the genome files:
+```  
+$ cd data 
+$ mkdir -p genome/mm10 && cd genome/mm10
+$ nohup wget http://hgdownload.cse.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz
+$ tar zvfx chromFa.tar.gz
+$ cd ..
+$ mkdir hg19 && cd hg19
+$ nohup wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz
+$ tar zvfx chromFa.tar.gz 
+$ cd ../../..
+```
+### Unzip the open region files and result files:
+```  
+$ tar -xjvf data/open_region.tar.bz2 -C data
+$ tar -xjvf result/result.tar.bz2 -C result
 ```
