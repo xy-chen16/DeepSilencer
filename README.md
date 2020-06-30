@@ -4,7 +4,7 @@
 <img src = "inst/Figure1.png" width = 80% height = 80%>
 </div>   
 
-### Performance in self-projectiong    
+### Performance in self-projection    
 <div align=center>
 <img src = "inst/Figure2.png" width = 70% height = 70%>
 </div>  
