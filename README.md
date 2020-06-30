@@ -1,14 +1,30 @@
-<style>
-table {
-margin: auto;
-}
-</style>   
 # DeepSilencer
 #### A deep convolutional neural network for the accurate prediction of silencers
 <div align=center>
 <img src = "inst/Figure1.png" width = 80% height = 80%>
 </div>  
+### Performance in self-projectiong
+<div align=center>
+<img src = "inst/Figure2.png" width = 70% height = 70%>
+</div>  
 
+<table>
+        <tr>
+            <th>Method</th>
+            <th>ROC</th>
+            <th>PRC</th>
+        </tr>
+        <tr>
+            <th>DeepSilencer</th>
+            <th>0.81</th>
+            <th>0.82</th>
+        </tr>
+        <tr>
+            <th>gkmSVM</th>
+            <th>0.81</th>
+            <th>0.76</th>
+        </tr>
+    </table>
 ## Installation  
 
 ```  
@@ -54,25 +70,5 @@ $ tar -xjvf result/result.tar.bz2 -C result
 ```   
 $ python code/run_self_projection.py
 ```
-<div align=center>
-<img src = "inst/Figure2.png" width = 70% height = 70%>
-</div>  
 
-<table>
-        <tr>
-            <th>Method</th>
-            <th>ROC</th>
-            <th>PRC</th>
-        </tr>
-        <tr>
-            <th>DeepSilencer</th>
-            <th>0.81</th>
-            <th>0.82</th>
-        </tr>
-        <tr>
-            <th>gkmSVM</th>
-            <th>0.81</th>
-            <th>0.76</th>
-        </tr>
-    </table>
 
