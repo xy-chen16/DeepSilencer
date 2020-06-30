@@ -44,3 +44,11 @@ $ cd ../../..
 $ tar -xjvf data/open_region.tar.bz2 -C data
 $ tar -xjvf result/result.tar.bz2 -C result
 ```
+## Tutorial  
+### self-projection 
+```   
+$ python code/run_self_projection.py
+```
+<div align=center>
+<img src = "inst/Figure2.png" width = 60% height = 60%>
+</div>  
