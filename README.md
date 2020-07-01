@@ -14,7 +14,7 @@
 </tr>
 <tr>
     <th>DeepSilencer</th>
-    <th>**0.822**</th>
+    <th>   **0.822**    </th>
     <th>**0.838**</th>
 </tr>
 <tr>
