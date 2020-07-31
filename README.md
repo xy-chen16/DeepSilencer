@@ -66,8 +66,8 @@ We also compared our method with gkmSVM using the same datasets by generating th
 </tr>
 <tr>
     <th>DeepSilencer</th>
-    <th>   0.822    </th>
-    <th>0.838</th>
+    <th>0.827</th>
+    <th>0.842</th>
 </tr>
 <tr>
     <th>gkmSVM</th>
@@ -77,9 +77,18 @@ We also compared our method with gkmSVM using the same datasets by generating th
 </table>
 
 ### crossdataset-projection 
+In order to find the candidate silencer elements in homo sapiens and mus musculus, we trained the DeepSilencer model based on the whole sequences using in the self-projection experiments. First, we trained the model: 
+
+```   
+$ python code/train_for_crossdata_projection.py
+```
+Predict the candidate silencer elements in homo sapiens (hg19): 
 ```   
 $ python code/run_crossdata_projection_human.py
+```
+Predict the candidate silencer elements in mus musculus (mm10): 
+```
 $ python code/run_crossdata_projection_mouse.py
 ```
-
+Then you can check the results in the *results* folder.
 
