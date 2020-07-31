@@ -52,7 +52,9 @@ For the self-projection experiment, we randomly selected 80% of the data as trai
 $ python code/run_self_projection.py
 ```
 The performance of DeepSilencer was shown in the following Figure.
-
+<div align=center>
+<img src = "inst/Figure2.png" width = 60% height = 60%>
+</div>   
 
 We also compared our method with gkmSVM using the same datasets by generating the receiver operating characteristic (ROC) curve by plotting true positive rate versus false positive rate and the precision recall curve (PRC). The performance of two methods was shown in the following table.
 
