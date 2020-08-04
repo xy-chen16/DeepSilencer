@@ -64,11 +64,11 @@ We also compared our method with gkmSVM using the same datasets by generating th
     <th>ROC</th>
     <th>PRC</th>
 </tr>
-<tr><td bgcolor=#FF00FF>
+<tr>
     <th>DeepSilencer</th>
-    <th>0.827</th>
+    <th><span xss=removed>0.827</span></th>
     <th>0.842</th>
-</td></tr>
+</tr>
 <tr>
     <th>gkmSVM</th>
     <th>0.81</th>
