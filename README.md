@@ -66,7 +66,7 @@ We also compared our method with gkmSVM using the same datasets by generating th
 </tr>
 <tr>
     <th>DeepSilencer</th>
-    <th><font color="#dd0000">0.827</font></th>
+    <th><td bgcolor=#FF00FF>0.827</font></td></th>
     <th>0.842</th>
 </tr>
 <tr>
