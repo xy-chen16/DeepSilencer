@@ -66,8 +66,8 @@ We also compared our method with gkmSVM using the same datasets by generating th
 </tr>
 <tr>
     <th>DeepSilencer</th>
-    <th><span xss=removed>0.827</span></th>
-    <th>0.842</th>
+    <th>0.827*</th>
+    <th>0.842*</th>
 </tr>
 <tr>
     <th>gkmSVM</th>
