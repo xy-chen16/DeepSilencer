@@ -46,9 +46,9 @@ $ tar -xjvf data/open_region.tar.bz2 -C data
 $ tar -xjvf result/result.tar.bz2 -C result
 ```
 ## Tutorial   
-For demonstrating the classification performance of DeepSilencer, we uses the same data as the gapped k-mer SVM (gkmSVM), which is a complex array of distal cis-regulatory elements (CREs) consisting of promoters, enhancers, insulators and silencers (Jayavelu et al., 2019). We chose the top 2000 uncharacterized CREs sequences with the lowest MPRA activity as a positive set, and the bottom 2000 uncharacterized CREs with highest MPRA activity as a negative set.  
+We collected the uncharacterized cis-regulatory elements (CREs) in K562 cells with MPRA provided by Jayavelu et al. Then we chose the top 2000 uncharacterized CREs sequences with the lowest MPRA activity as a positive set, and the bottom 2000 uncharacterized CREs with highest MPRA activity as a negative set. We also downloaded the uncharacterized CREs in homo sapiens and mus musculus without the value of MPRA, and we further use these sequences to find the candidate silencer.  
 ### self-projection  
-For the self-projection experiment, we randomly selected 80% of the data as trainning set and used the remaining 20% of data as test set.
+For demonstrating the classification performance of DeepSilencer, we conducted the self-projection experiment and compared our method with the gapped k-mer SVM (gkmSVM). We randomly selected 80% of the data as trainning set and used the remaining 20% of data for testing the two models.
 ```   
 $ python code/run_self_projection.py
 ```
@@ -57,12 +57,12 @@ The performance of DeepSilencer was shown in the following Figure.
 <img src = "inst/Figure2.png" width = 60% height = 60%>
 </div>   
 
-We also compared our method with gkmSVM using the same datasets by generating the receiver operating characteristic (ROC) curve by plotting true positive rate versus false positive rate and the precision recall curve (PRC). The performance of two methods was shown in the following table.
+The performance of two methods was shown in the following table.
 
 <table>
 <tr>
     <th>Method</th>
-    <th>ROC</th>
+    <th>AUC</th>
     <th>PRC</th>
 </tr>
 <tr>
