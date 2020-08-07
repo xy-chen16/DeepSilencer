@@ -1,5 +1,6 @@
 # DeepSilencer
 #### A deep convolutional neural network for the accurate prediction of silencers
+For accurate classification of silencers, we propose a CNN-based model named DeepSilencer. As illustrated in the following figure, DeepSilencer consists of four modules. First, a data-processing module transforms DNA sequences into matrices of sequences and counts of kmers. Second, a CNN module uses a convolutional neural network (CNN) with multiple convolutional and pooling layers to extract features from matrices of DNA sequences. Third, an ANN module is adopted to sufficiently learn the characteristics of kmers. Finally, a joint module integrates outputs of the CNN and ANN modules to predict the probability.
 <div align=center>
 <img src = "inst/Figure1.png" width = 80% height = 80%>
 </div>   
