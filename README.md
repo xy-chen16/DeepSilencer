@@ -96,7 +96,7 @@ Then you can check the results in the *results* folder.
 ## Analysis   
 We got the candidate silencers using the trained DeepSilencer model from the uncharacterized CREs in human and mouse. Then we did some comparative analyses between silencers predicted in the human K562 cell line by the gkmSVM-based model and our DeepSilencer model, and believed that there is almost no difference between them. The length distribution of silencers from the gkmSVM-based model and our DeepSilencer model is shown in Figure A. We found that there is no significant difference in the distance between silencers and the nearest coding genes (two-sided Wilcox test p-value=0.5209, Figure B), the GC content (two-sided Wilcox test p-value=0.9299, Figure C) and the chromatin accessibility (two-sided Wilcox test p-value=0.5699, Figure D). 
 <div align=center>
-<img src = "inst/Figure3.png" width = 60% height = 60%>
+<img src = "inst/Figure3.png" width = 90% height = 90%>
 </div>   
 Indeed, most of the silencers were collected from both the gkmSVM-based model and our DeepSilencer model. However, there are some unique silencers from DeepSilencer model. For example, chr3: 48,997,302-48,997,398 is a silencer predicted by DeepSilencer model, but not a silencer predicted by the gkmSVM-based model. And chr3: 48,997,266-48,997,466 that is a silencer validated in the human K562 cell line covers this predicted silencer.
 
