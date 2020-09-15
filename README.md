@@ -26,6 +26,12 @@ $ git clone https://github.com/xy-chen16/DeepSilencer.git
 $ cd DeepSilencer    
 ```
 <center>
+|  Method   | Version  |
+|  ----  | ----  |
+| DeepSilencer  | 0.1.0 |
+| gkmSVM  | v1.3 |
+| SVM  | 0.22.1 |
+| correlation  | 0.22.1 |
 <table>
 <tr>
     <th>Method</th>
