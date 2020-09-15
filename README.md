@@ -41,11 +41,11 @@ $ cd DeepSilencer
 </tr>
 <tr>
     <th>SVM</th>
-    <th>0.22(sklearn)</th>
+    <th>0.22.1(sklearn)</th>
 </tr>
 <tr>
     <th>correlation</th>
-    <th>0.22(sklearn)</th>
+    <th>0.22.1(sklearn)</th>
 </tr>
 </table>
 
