@@ -35,28 +35,7 @@ $ cd DeepSilencer
 | correlation  | 0.22.1 |     
      
 </div>
-<table>
-<tr>
-    <th>Method</th>
-    <th>Version</th>
-</tr>
-<tr>
-    <th>DeepSilencer</th>
-    <th>0.1.0</th>
-</tr>
-<tr>
-    <th>gkmSVM</th>
-    <th>v1.3</th>
-</tr>
-<tr>
-    <th>SVM</th>
-    <th>0.22.1(sklearn)</th>
-</tr>
-<tr>
-    <th>correlation</th>
-    <th>0.22.1(sklearn)</th>
-</tr>
-</table>
+
 
 ## Data Preprocessing
 
@@ -90,7 +69,15 @@ The performance of DeepSilencer was shown in the following Figure.
 </div>   
 
 The performance of two methods was shown in the following table.
+<div align=center>   
+    
+|  Method   | AUC  | PRC |
+|  :----:  | :----: | :----: |
+| DeepSilencer  | **0.827** | **0.842** |
+| gkmSVM  | 0.81 | 0.76 | 
 
+
+</div>  
 <table>
 <tr>
     <th>Method</th>
