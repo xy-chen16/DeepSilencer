@@ -25,6 +25,7 @@ $ pip install -U hickle
 $ git clone https://github.com/xy-chen16/DeepSilencer.git   
 $ cd DeepSilencer    
 ```
+<center>
 <table>
 <tr>
     <th>Method</th>
