@@ -25,6 +25,28 @@ $ pip install -U hickle
 $ git clone https://github.com/xy-chen16/DeepSilencer.git   
 $ cd DeepSilencer    
 ```
+<table>
+<tr>
+    <th>Method</th>
+    <th>Version</th>
+</tr>
+<tr>
+    <th>DeepSilencer</th>
+    <th>0.1.0</th>
+</tr>
+<tr>
+    <th>gkmSVM</th>
+    <th>v1.3</th>
+</tr>
+<tr>
+    <th>SVM</th>
+    <th>0.22(sklearn)</th>
+</tr>
+<tr>
+    <th>correlation</th>
+    <th>0.22(sklearn)</th>
+</tr>
+</table>
 
 ## Data Preprocessing
 
