@@ -78,23 +78,7 @@ The performance of two methods was shown in the following table.
 
 
 </div>  
-<table>
-<tr>
-    <th>Method</th>
-    <th>AUC</th>
-    <th>PRC</th>
-</tr>
-<tr>
-    <th>DeepSilencer</th>
-    <th>0.827*</th>
-    <th>0.842*</th>
-</tr>
-<tr>
-    <th>gkmSVM</th>
-    <th>0.81</th>
-    <th>0.76</th>
-</tr>
-</table>
+
 
 ### crossdataset-projection 
 In order to find the candidate silencer elements in homo sapiens and mus musculus, we trained the DeepSilencer model based on the whole sequences using in the self-projection experiments. First, we trained the model: 
