@@ -13,7 +13,7 @@ if __name__ == '__main__':
     parser.add_argument('--data', '-d', type=str, help='input test data name',default='h_hg19_ENCODE')
     parser.add_argument('--outdir', '-o', type=str, default=os.path.dirname(os.getcwd())+'/output/crossdata-projection-human/', help='Output path')
     parser.add_argument('--model_name', '-f', type=str, default='../model/kmer_seq.h5', help='Model name to load for prediction')
-    parser.add_argument('--mapping_file','-m',type=str,default='Human_mapping.xlsx',help='Mapping the cell lines we predict to their real names'
+    parser.add_argument('--mapping_file','-m',type=str,default='Human_mapping.xlsx',help='Mapping the cell lines we predict to their real names')
     parser.add_argument('--seed', type=int, default=1234, help='Random seed for repeat results')
     parser.add_argument('--save_result','-p', type = bool, default = True, help='Save test labels and predicted labels')
     parser.add_argument('--genome','-ge', type = str, default = 'hg19', help='The genome we need to predict')
