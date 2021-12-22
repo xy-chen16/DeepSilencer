@@ -1,11 +1,11 @@
 import numpy as np
 import os
-INDEX1 = '/home/gaozijing/gzj/DeepSilencer/data/bed/Candidate_silencers_and_uncharacterized_CREs_human_hg19_ENCODE_cell_types.txt'
-INDEX2 = '/home/gaozijing/gzj/DeepSilencer/data/bed/Candidate_silencers_and_uncharacterized_CREs_human_hg19_roadmap_cell_types.txt'
-INDEX3 = '/home/gaozijing/gzj/DeepSilencer/data/bed/Candidate_silencers_and_uncharacterized_CREs_mouse_mm10_ENCODE_cell_types.txt'
+INDEX1 = '../data/bed/Candidate_silencers_and_uncharacterized_CREs_human_hg19_ENCODE_cell_types.txt'
+INDEX2 = '../data/bed/Candidate_silencers_and_uncharacterized_CREs_human_hg19_roadmap_cell_types.txt'
+INDEX3 = '../data/bed/Candidate_silencers_and_uncharacterized_CREs_mouse_mm10_ENCODE_cell_types.txt'
 
-GENOME_mm10 = '/home/chenxiaoyang/data/mm10/'
-GENOME_hg19 = '/home/gaozijing/gzj/DeepSilencer/data/Chromosomes/'
+GENOME_mm10 = '../data/mm10/'
+GENOME_hg19 = '../data/mm9/'
 
 name2index = {'h_hg19_ENCODE': INDEX1,'h_hg19_roadmap':INDEX2,'m_mm19_ENCODE': INDEX3}
 encoding_matrix = {'a':0, 'A':0, 'c':1, 'C':1, 'g':2, 'G':2, 't':3, 'T':3, 'n':0, 'N':0}
