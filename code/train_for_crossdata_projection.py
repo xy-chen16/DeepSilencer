@@ -51,4 +51,4 @@ if __name__ == '__main__':
     tf.set_random_seed(seed)
     np.random.seed(seed)
     # train the DeepSilencer and save the model
-    deepsilencer.fit(whole_data,whole_data_kmer,train_label,filename= modelname,learning_rate=lr)
+    deepsilencer.fit(whole_data,whole_data_kmer,whole_label,filename= modelname,learning_rate=lr)
