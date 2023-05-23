@@ -30,7 +30,7 @@ if __name__ == '__main__':
     train_label = [1]*1600+[0]*1600
     test_label = [1]*400+[0]*400
     # contact the train data and test data
-    whole_mat = np.vstack(train_mat,test_mat)
+    whole_mat = whole_mat = np.vstack((train_mat,test_mat))
     whole_label = train_label + test_label
     whole_data,whole_label = shuffle(whole_mat, whole_label, random_state=0)
     whole_data = whole_data.reshape(-1,4,200,1)
